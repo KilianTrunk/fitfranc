@@ -24,10 +24,22 @@
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-  margin: 4px 2px;
   border-radius: 16px;
   margin: 12% 0 0 0;
+}
 
+.SquareButton {
+  background-color: #DBD8E3; /* Green */
+  border: none;
+  color: #2A2438;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 12% 0 0 0;
 }
 
 /*  -------------------------------------  MAIN SECTION  -------------------------------------  */
@@ -241,4 +253,137 @@
   .ReviewsSection-UserText {
     font-size: 0.5cm;
   }
+}
+
+/*  -------------------------------------  FINAL SECTION  -------------------------------------  */
+
+.FinalSection {
+  background-color: #352F44;
+  color: #DBD8E3;
+  padding: 2cm 1.6cm;
+}
+
+.FinalSection-MainText {
+  font-weight: 800;
+  font-size: 0.8cm;
+}
+
+.FinalSection-SupportText {
+  font-weight: 500;
+  font-size: 0.5cm;
+  padding: 0.8cm 0;
+}
+
+.FinalSection-SubscriptionText {
+  font-size: 0.32cm;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* --- mid height adaptions --- */
+
+@media only screen and (max-height: 750px) {
+  .FinalSection-SubscriptionText {
+    margin-right: 1cm;
+  }
+}
+
+/* --- semi small height adaptions --- */
+
+@media only screen and (max-height: 680px) {
+  .FinalSection-SubscriptionText {
+    margin-right: 0;
+  }
+}
+
+/* --- small height adaptions --- */
+
+@media only screen and (max-height: 600px) {
+  .FinalSection {
+    padding: 1.8cm 1.2cm;
+  }
+
+  .SquareButton {
+    padding: 8px 16px;
+    font-size: 20px;
+  }
+
+  .FinalSection-SubscriptionText {
+    margin-right: 0.3cm;
+  }
+}
+
+/*  -------------------------------------  FOOTER  -------------------------------------  */
+
+.Footer {
+  background-color: #2A2438;
+  padding: 1.6cm 0.5cm;
+}
+
+.Footer-Section {
+  padding-left: 0.6cm;
+}
+
+.Footer-LinksSection {
+  display: flex;
+}
+
+.Footer-LinksSection-WhiteSection {
+  color: #DBD8E3;
+  padding: 1cm 1cm 1cm 0;
+}
+
+.Footer-LinksSection-PurpleSection {
+  color: #5C5470;
+  padding: 1cm;
+}
+
+.Footer-LinksSection-Text {
+  font-weight: bold;
+  font-size: 0.42cm;
+  padding: 0.2cm 0;
+}
+
+.Footer-SocialMediaSection {
+  padding-bottom: 1cm;
+}
+
+.Footer-SocialMediaSection-Text {
+  color: #DBD8E3;
+  font-weight: bold;
+  font-size: 0.46cm;
+  padding: 1cm 0 0 0;
+}
+
+.Footer-SocialMediaSection-SocialMediaLogos-InstagramLogo {
+  padding: 0.3cm 0.3cm 0 0;
+}
+
+.Footer-SocialMediaSection-SocialMediaLogos-Logo {
+  padding: 0 0.3cm;
+}
+
+.Footer-CompanySection {
+  padding-top: 1cm;
+  display: flex;
+}
+
+.Footer-CompanySection-RightSection{
+  padding-left: 0.5cm;
+}
+
+.Footer-CompanySection-Text {
+  color: #5C5470;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 0.4cm;
+  padding: 0.2cm 0;
+}
+
+.Footer-CompanySection-TextGoRight {
+  margin-left: 0.6cm;
+}
+
+.Footer-CompanySection-CopyrightText {
+  text-decoration: none;
 }

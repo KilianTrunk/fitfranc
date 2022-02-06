@@ -8,7 +8,7 @@ const Nav = styled.nav`
   width: 100%;
   height: 60px;
   background-color: #352f44;
-  border-bottom: 2px solid #352f44;
+  border-bottom: 4px solid #2A2438;
   padding: 0 20px;
   display: flex;
   position: sticky;
@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <Nav>
       <div className="logo">
-        <img src={PinkLogo} alt="Logo" className="Navbar-Logo" />
+        <img src={PinkLogo} alt="Logo" className="Navbar-Logo"/>
       </div>
       <Burger />
     </Nav>
