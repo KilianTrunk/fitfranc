@@ -1,0 +1,244 @@
+/*  -------------------------------------  APPLY TO ALL ELEMENTS  -------------------------------------  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  -------------------------------------  NAVBAR  -------------------------------------  */
+
+.Navbar-Logo {
+  width: 40px;
+}
+
+/*  -------------------------------------  BUTTONS  -------------------------------------  */
+
+.RoundButton {
+  background-color: #5C5470; /* Green */
+  border: none;
+  color: #DBD8E3;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  border-radius: 16px;
+  margin: 12% 0 0 0;
+
+}
+
+/*  -------------------------------------  MAIN SECTION  -------------------------------------  */
+
+.MainSection {
+  background-image: url("../Images/Main\ Section\ Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 205vw;
+  color: #2A2438;
+  text-align: center;
+}
+
+.MainSection-BoldTitle {
+  font-weight: 800;
+  font-size: 0.9cm;
+  padding: 50% 10% 15% 10%;
+}
+
+.MainSection-Text {
+  font-weight: 200;
+  font-size: 0.53cm;
+  padding: 0 6%;
+}
+
+.MainSection-TextUnderButton {
+  text-decoration: underline;
+  font-size: 0.35cm;
+  padding: 2% 0 0 0;
+}
+
+.MainSection-TextWithArrowDown {
+  font-size: 0.52cm;
+  padding: 45% 0 0 0;
+}
+
+.MainSection-ArrowDown {
+  padding-left: 1%;
+}
+
+/* --- mid height adaptions --- */
+
+@media only screen and (max-height: 750px) {
+  .MainSection {
+    height: 165vw;
+  }
+
+  .MainSection-BoldTitle {
+    padding: 35% 10% 15% 10%;
+  }
+
+  .MainSection-TextWithArrowDown {
+    padding: 35% 0 0 0;
+  }
+}
+
+/* --- semi small height adaptions --- */
+
+@media only screen and (max-height: 680px) {
+  .MainSection-TextWithArrowDown {
+    padding: 20% 0 0 0;
+  }
+}
+
+/* --- small height adaptions --- */
+
+@media only screen and (max-height: 600px) {
+  .MainSection {
+    height: 160vw;
+  }
+
+  .MainSection-BoldTitle {
+    padding: 15% 10% 15% 10%;
+  }
+
+  .MainSection-TextWithArrowDown {
+    padding: 8% 0 0 0;
+  }
+}
+
+/*  -------------------------------------  OFFER SECTION  -------------------------------------  */
+
+.OfferSection {
+  text-align: center;
+  padding: 1.4cm;
+  background-color: #2A2438;
+  color: #dbd8e3;
+}
+
+.OfferSection-OfferImage {
+  border-radius: 4px;
+}
+
+.OfferSection-Offer-MainText {
+  font-weight: 600;
+  font-size: 0.5cm;
+  padding: 0.68cm 0 0.42cm 0;
+}
+
+.OfferSection-Offer-SupportText {
+  font-size: 0.36cm;
+}
+
+.OfferSection-Padding {
+  padding: 1cm 0;
+}
+
+.OfferSection-Offer-Button {
+  font-size: 22px;
+}
+
+/* --- semi small height adaptions --- */
+
+@media only screen and (max-height: 680px) {
+  .OfferSection-Offer-Button {
+    font-size: 20px;
+  }
+}
+
+/* --- small height adaptions --- */
+
+@media only screen and (max-height: 600px) {
+  .OfferSection-OfferImage {
+    width: 200px;
+  }
+
+  .OfferSection-Offer-Button {
+    font-size: 16px;
+  }
+}
+
+/*  -------------------------------------  REVIEWS SECTION  -------------------------------------  */
+
+.ReviewsSection {
+  background-image: url("../Images/Reviews\ Section\ Background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 164vw;
+  color: #2A2438;
+  text-align: center;
+  padding: 1.4cm;
+}
+
+.ReviewsSection-MainText {
+  font-weight: bold;
+  font-size: 0.68cm;
+  padding: 0 0.6cm;
+}
+
+.ReviewsSection-Logo {
+  width: 46px;
+  padding: 1cm 0 2cm 0;
+}
+
+.ReviewsSection-UserText {
+  font-weight: 600;
+  font-size: 0.6cm;
+  color: #DBD8E3;
+}
+
+.ReviewsSection-UserImage {
+  padding: 0.64cm 0 0.26cm 0;
+}
+
+.ReviewsSection-UserName {
+  font-weight: bold;
+  font-size: 0.56cm;
+}
+
+.ReviewsSection-UserTitle {
+  padding-top: 0.14cm;
+  font-size: 0.36cm;
+  font-weight: 600;
+}
+
+/* --- mid height adaptions --- */
+
+@media only screen and (max-height: 750px) {
+  .ReviewsSection {
+    height: 136vw;
+  }
+}
+
+/* --- semi small height adaptions --- */
+
+@media only screen and (max-height: 680px) {
+  .ReviewsSection {
+    height: 166vw;
+  }
+}
+
+/* --- small height adaptions --- */
+
+@media only screen and (max-height: 600px) {
+  .ReviewsSection {
+    height: 180vw;
+  }
+
+  .ReviewsSection-MainText {
+    font-size: 0.58cm;
+    padding: 0 0.3cm;
+  }
+
+  .ReviewsSection-Logo {
+    width: 46px;
+    padding: 1cm 0 1.2cm 0;
+  }
+
+  .ReviewsSection-UserText {
+    font-size: 0.5cm;
+  }
+}
